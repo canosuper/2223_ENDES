@@ -2,6 +2,7 @@ package bicicletas;
 
 public class BiciMTB {
 	//atributos
+	//Comentario de prueba
 	
 	private String marca;
 	private String modelo;
@@ -25,7 +26,7 @@ public class BiciMTB {
 	}
 	
 	public BiciMTB(String marca, String modelo) {
-		//constructor con 2 parámetros y el resto por defecto
+		//constructor con 2 parï¿½metros y el resto por defecto
 		this.marca = marca;
 		this.modelo = modelo;		
 		this.suspension = Suspensiones.RIGIDA;
@@ -38,7 +39,7 @@ public class BiciMTB {
 	
 	public BiciMTB(String marca, String modelo, Suspensiones suspension, byte numPlatos, boolean esNueva, float precio,
 			short velocidad, boolean averiada) {
-		//constructor con todos los parámetros
+		//constructor con todos los parï¿½metros
 		this.marca = marca;
 		this.modelo = modelo;
 		this.suspension = suspension;
