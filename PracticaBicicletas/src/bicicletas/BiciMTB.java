@@ -3,6 +3,7 @@ package bicicletas;
 public class BiciMTB {
 	//Atributos
 	//cambio a las 18:51
+	//CAMBIO A LAS 18:55
 	private String marca; 
 	private String modelo; 
 	private Suspensiones suspension;
